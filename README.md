@@ -24,9 +24,9 @@ Settings:
 
 PUB_INTERVAL = 40.0   # sec. publish mqtt
 
-SETTINGS_INTERVAL = 360
+SETTINGS_INTERVAL = 360 #sec. interval reading settings
 
-CELL_INTERVAL = 60 #sec. reading cells
+CELL_INTERVAL = 60 #sec. interval reading cells 
 
 mqttClient.connect("localhost", 1883, 60) #mqtt host
 
