@@ -19,14 +19,21 @@ If you do any modification to this python script please SHARE with me, thank you
 ------------------------------------------------------------------------------------------------------------------------
 """
 
+
 Settings:
+
 PUB_INTERVAL = 40.0   # sec. publish mqtt
+
 SETTINGS_INTERVAL = 360
+
 CELL_INTERVAL = 60 #sec. reading cells
+
 mqttClient.connect("localhost", 1883, 60) #mqtt host
 
 run:
+
 python jkmonitor4.py 0    (no output)
+
 python jkmonitor4.py 1    (console output)
 
 
